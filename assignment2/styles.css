@@ -1,0 +1,54 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+.stock-profile {
+    padding: 20px;
+    background-color: #93d0f4;
+    color: white;
+    text-align: center;
+    border-radius: 2vmax;
+}
+
+.links {
+    color: #0079c1;
+}
+
+footer {
+    padding: 10px;
+    background-color: #93d0f4;
+    color: white;
+    text-align: center;
+    border-radius: 5vmax;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-color: #ddd;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Add in your own customisations */
+
+h2 {
+    color: #063fdd;
+    text-decoration-line: underline;
+}
+
+
+
