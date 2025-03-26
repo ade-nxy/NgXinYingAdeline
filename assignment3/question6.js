@@ -7,3 +7,21 @@ const disneyData = {
 };
 
 // Write your code below
+
+if (parseFloat(disneyData["close"]) > parseFloat(disneyData["open"])) {
+    if (parseFloat(disneyData["volume"]) > 100000) {
+        console.log("Strong Bullish")
+    }
+    else {console.log("Bullish")}
+}
+if (parseFloat(disneyData["close"]) < parseFloat(disneyData["open"])) {
+    if (parseFloat(disneyData["volume"]) > 10000) {
+        console.log("Strong Bearish")
+    }
+    else {console.log("Bearish")}
+}
+
+if (parseFloat(disneyData["close"]) === parseFloat(disneyData["open"])) {
+    console.log("Neutral")
+}
+
